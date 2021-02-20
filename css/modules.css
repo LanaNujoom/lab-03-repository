@@ -1,0 +1,25 @@
+#photo-template {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#photo-template img {
+    width: 100px;
+}
+
+div img {
+    width: 78%;
+    margin: 0px 20px;
+    height: 250px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 38%;
+    margin: auto;
+    flex-wrap: wrap;
+}
