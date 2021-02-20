@@ -23,7 +23,7 @@ $(document).ready(function() {
         }
     };
     const readJson = () => {
-        $.ajax("../data/page-1.json", { method: "get", dataType: "JSON" }).then(data => {
+        $.ajax("data/page-1.json", { method: "get", dataType: "JSON" }).then(data => {
             hornAll = [];
             $('main').empty();
             data.forEach(hornItem => {
